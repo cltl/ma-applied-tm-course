@@ -5,20 +5,23 @@ This repository contains code and materials that provide additional support for 
 
 The directory example_scripts/ contains:
 
+## example script for extracting information from NAF
 
 /extract_information_from_naf.py
 
-What is it? 
+### What is it? 
+
 This script illustrates how to extract entities and opinions from a NAF file using the KafNafParserPy module.
 It takes a directory of naf files as input and produces a csv files in an (existing) specified output directory. These csv files provide an overview of the entities or the opinions that are provided in the naf file.
 
 
-How can I install the dependencies (the KafNafParserPy module):
+### How to install dependencies (the KafNafParserPy module):
 
 The KafNafParserPy module can be installed using pip:
 pip install KafNafParserPy
 
-How to run the script?
+### How to run the script?
+
 The script can be run from the commandline:
 
 python extract_information_from_naf.py inputdir/ outputdir/ \[-o -e\]
