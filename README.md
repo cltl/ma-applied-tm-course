@@ -32,6 +32,6 @@ outputdir/ : path to the directory where the output csv files should be generate
 -e : option the requests extraction of expressions
 NB: both options can be specified at the same time: the script will then generate both opinions and entities csv files.
 
-For more information run:
+Information about the options can also be found by running:
 
 python extract_information_from_naf.py --help
